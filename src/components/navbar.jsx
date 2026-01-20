@@ -53,7 +53,11 @@ function Navbar() {
             </li>
             <li>
               {/* this file should be updated */}
-              <a href="https://docs.google.com/viewer?url=https://my-portfolio-i0vr9zj0h-rashed-46s-projects.vercel.app/resume.pdf" target="_blank" rel="noopener noreferrer">
+              <a
+                href="/resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <span>
                   <FontAwesomeIcon icon={faFileLines} />
                 </span>
