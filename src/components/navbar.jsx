@@ -8,7 +8,6 @@ import {
 } from "@fortawesome/free-regular-svg-icons";
 import {
   faDiagramProject,
-  faCertificate,
   faBars,
   faXmark,
 } from "@fortawesome/free-solid-svg-icons";
@@ -55,7 +54,7 @@ function Navbar() {
             <li>
               {/* this file should be updated */}
               <a
-                href="/resume/Md_Nuruzzaman_Emon_Resume (Full-Stack).pdf"
+                href="https://github.com/rashed-miah/my-portfolio/releases/download/v1.0/resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >

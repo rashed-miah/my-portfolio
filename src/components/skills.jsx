@@ -4,9 +4,9 @@ import "../css/skills.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCaretLeft, faCaretRight } from "@fortawesome/free-solid-svg-icons";
 import gitLogo from "../images/skillsLogo/git.png";
-import cpp from "../images/skillsLogo/cpp.png";
+
 import css from "../images/skillsLogo/css.png";
-import java from "../images/skillsLogo/java.png";
+
 import javascript from "../images/skillsLogo/javascript.png";
 import html from "../images/skillsLogo/html.png";
 
@@ -14,10 +14,9 @@ import cProgramming from "../images/skillsLogo/c-programming.png";
 import reactNative from "../images/skillsLogo/react-native.png";
 import nodejs from "../images/skillsLogo/nodejs.png";
 
-import postgresql from "../images/skillsLogo/postgresql.png";
 import expressjs from "../images/skillsLogo/express-js.png";
 import mongodb from "../images/skillsLogo/mongodb.png";
-import typescript from "../images/skillsLogo/typescript.png";
+
 import tailwindcss from "../images/skillsLogo/tailwindcss.png";
 
 function ProgressBar({ progress }) {
