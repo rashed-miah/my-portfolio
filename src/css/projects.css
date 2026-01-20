@@ -1,0 +1,219 @@
+.progress-bar 
+{
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    height: 5px;
+    position: relative;
+    overflow: hidden;
+}
+  
+  .progress-bar-fill 
+  {
+    background: linear-gradient(45deg, #0098a9 0%, #00d4ff 50%, #006d7a 100%);
+    height: 100%;
+    width: 0;
+    transition: width 1s ease-in-out;
+  }
+  .projectsMainBox
+  {
+    color: #ffffff;
+  }
+
+  .projectBtns
+  {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+  }
+  .projectBtns button
+  {
+    background-color: #24272C;
+    color: #ffffff;
+    padding: 10px 30px;
+    border-radius: 7px;
+    font-size: 18px;
+    border: none;
+    box-shadow: 
+      5px 5px 10px rgba(0, 0, 0, 0.3), 
+      -5px -5px 10px rgba(255, 255, 255, 0.1);
+      margin: 0 30px;
+  }
+  .projectBox
+  {
+    display: flex;
+    justify-content: space-around;
+  }
+  .allProjects
+  {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    justify-content: space-between;
+  }
+  .viewProjects
+  {
+    width: 60%;
+  }
+  .project
+  {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    box-shadow: 
+      5px 5px 10px rgba(0, 0, 0, 0.3), 
+      -5px -5px 10px rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    
+  }
+  .project img
+  {
+    max-height: 100%;
+    max-width: 100%;
+    /* border-radius: 50%; */
+  }
+  .viewProject
+  {
+    min-height: 420px;
+    width: 400px;
+    box-shadow: 
+      5px 5px 10px rgba(0, 0, 0, 0.3), 
+      -5px -5px 10px rgba(255, 255, 255, 0.1);
+    padding: 25px;
+    border-radius: 5px;
+  }
+  .imageBox
+  {
+    box-shadow: 
+      inset 5px 5px 10px rgba(0, 0, 0, 0.3), 
+      inset -5px -5px 10px rgba(255, 255, 255, 0.1);
+      border-radius: 10px;
+      padding: 10px;
+      text-align: center;
+  }
+  .imageBox img
+  {
+    max-width: 100%;
+    height: 220px;
+    border-radius: 10px;
+  }
+  .contentBox
+  {
+    text-align: center;
+    padding: 10px;
+  }
+  .contentBox h3
+  {
+    font-size: 22px;
+    margin-top: 20px;
+  }
+  .contentBox p
+  {
+    font-size: 14px;
+  }
+  .contentBox span
+  {
+    font-size: 30px;
+  }
+ .viewProjectsBox a
+ {
+  text-decoration: none;
+  color: #ffffff;
+ }
+
+.project-logo-bg:hover {
+  background-position: bottom center !important;
+}
+
+@media screen and (max-width: 770px)
+{
+  .projectBox
+  {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .viewProjects
+  {
+    width: 100%;
+  }
+  .projectBtns button
+  {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .projectBtns button:nth-child(2)
+  {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+  .allProjects
+  {
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .allProjects .project
+  {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+  }
+}
+@media screen and (max-width: 600px)
+{
+  .allProjects
+  {
+    gap: 30px;
+  }
+}
+@media screen and (max-width: 550px)
+{
+  .viewProject
+  {
+    width: 90%;
+    margin: auto;
+  }
+  .viewProject p {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+  .allProjects
+  {
+    gap: 15px;
+  }
+  .allProjects .project
+  {
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+  }
+}
+@media screen and (max-width: 500px)
+{
+  .projectBtns button
+  {
+    font-size: 14px;
+    padding: 8px;
+  }
+}
+@media screen and (max-width: 500px)
+{
+  .allProjects
+  {
+    gap: 10px;
+  }
+  .allProjects .project
+  {
+    width: 70px;
+    height: 70px;
+  }
+}

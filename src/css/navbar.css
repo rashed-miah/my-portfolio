@@ -1,0 +1,139 @@
+.logo a
+{
+    font-family: 'Sacramento', cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 45px;
+    color: #ffffff;
+}
+.menuMid
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mainMenu ul, .socialNavMenu ul
+{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.mainMenu ul li a, .socialNavMenu ul li a
+{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #24272C;
+    color: #ffffff;
+    height: 80px;
+    width: 80px;
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 5px;
+    box-shadow: 
+      5px 5px 10px rgba(0, 0, 0, 0.3), 
+      -5px -5px 10px rgba(255, 255, 255, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.mainMenu ul li a:hover, .socialNavMenu ul li a:hover
+{
+    transform: translateY(-2px);
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.35), -6px -6px 12px rgba(255, 255, 255, 0.12);
+}
+.mainMenu ul li a span, .socialNavMenu ul li a span
+{
+    font-size: 20px;
+}
+nav
+{
+    padding: 30px 0;
+}
+.navbarToggler
+{
+    display: none;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 30px;
+    height: 50px;
+    width: 50px;
+    border-radius: 3px;
+}
+.mblMenuCross
+{
+    display: none;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 30px;
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+    border-radius: 3px;
+}
+
+.socialNavMenu ul
+{
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 10px;
+    padding: 10px;
+}
+.socialNavMenu ul li a
+{
+    height: 50px;
+    width: 50px;
+}
+.logo a:hover
+{
+    color: #f0eded;
+}
+@media screen and (max-width: 850px)
+{
+    .mainMenu
+    {
+        background-color: #232732;
+        width: 60%;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: -100%;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3), -5px -5px 10px rgba(255, 255, 255, 0.1);
+        transition: right 0.3s ease;
+        z-index: 10;
+        overflow-y: scroll;
+    }
+    .mainMenu ul
+    {
+        flex-direction: column;
+        margin-top: 60px;
+        margin-left: 40px;
+        
+        padding: 20px;
+    }
+    .navbarToggler
+    {
+        display: block;
+    }
+    nav
+    {
+        padding: 20px 0;
+    }
+    .mblMenuCross
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 500px)
+{
+    .socialNavMenu ul
+    {
+        gap: 20px;
+    }
+}

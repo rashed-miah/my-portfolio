@@ -1,0 +1,7 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" fill="#fff"></rect>
+  <path d="M120 20 L45 70 L120 120 L195 70 Z" fill="#0a3d62"></path>
+  <circle cx="120" cy="150" r="45" fill="#1fb6ff"></circle>
+  <path d="M120 120 L120 180 M95 150 L145 150" stroke="#fff" stroke-width="8"></path>
+  <text x="120" y="220" text-anchor="middle" font-size="28" font-family="Poppins, sans-serif" fill="#0a3d62">Dr. Lipu</text>
+</svg>

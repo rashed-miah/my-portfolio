@@ -1,0 +1,32 @@
+.outerBox
+{
+    background-color: #24272C;
+    border: solid 50px #24272C;
+}
+.innerBox
+{
+    border-radius: 10px;
+    background-color: #232732;
+    box-shadow: 
+      inset 5px 5px 10px rgba(0, 0, 0, 0.3), 
+      inset -5px -5px 10px rgba(255, 255, 255, 0.1);
+      padding-bottom:50px ;
+      font-family: cursive;
+}
+button
+{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3), -5px -5px 10px rgba(255, 255, 255, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+button:hover
+{
+    transform: translateY(-2px);
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.35), -6px -6px 12px rgba(255, 255, 255, 0.12);
+}
+@media screen and (max-width: 550px)
+{
+    .outerBox
+    {
+        border: solid 35px #24272C;
+    }
+}

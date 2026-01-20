@@ -1,0 +1,23 @@
+<svg width="120" height="120" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="round">
+      <circle cx="120" cy="120" r="120"></circle>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#round)">
+    <rect width="240" height="240" fill="#ffffff"></rect>
+
+    <!-- Top diamond shape -->
+    <path d="M120 20 L45 70 L120 120 L195 70 Z" fill="#0a3d62"></path>
+
+    <!-- Smaller middle circle -->
+    <circle cx="120" cy="150" r="30" fill="#1fb6ff"></circle>
+
+    <!-- Smaller plus sign -->
+    <path d="M120 130 L120 170 M100 150 L140 150" stroke="#fff" stroke-width="6"></path>
+
+    <!-- Smaller text -->
+    <text x="120" y="215" text-anchor="middle" font-size="22" font-family="Poppins, sans-serif" fill="#0a3d62">Dr. Lipu</text>
+  </g>
+</svg>

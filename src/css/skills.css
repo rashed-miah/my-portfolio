@@ -1,0 +1,179 @@
+.skillMainBox
+{
+  padding: 100px 0;
+}
+.carousel {
+    position: relative;
+  }
+  
+  .main-item {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3), -5px -5px 10px rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+  }
+  
+  .item {
+    width: 100%;
+    height: 100%;
+    background-size: 90% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3), -5px -5px 10px rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+  }
+  
+  .nav-buttons {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .small-items {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    /* top: 50%;
+    left: 50%; */
+    top: 38%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .small-item {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3), -5px -5px 10px rgba(255, 255, 255, 0.1);
+
+  }
+  
+  .small-item.active {
+    box-shadow: inset 3px 4px 3px rgba(0, 0, 0, 0.3), inset -4px -3px 5px rgba(255, 255, 255, 0.1);
+
+  }
+  .small-item img {
+  max-width: calc(100% - 20px); /* Adjust as needed to increase center space */
+  max-height: calc(100% - 20px); /* Adjust as needed to increase center space */
+}
+.skillHeading h3
+{
+  text-align: end;
+  color: #ffffff;
+}
+.languagesBtnBox
+{
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 150px;
+}
+.languagesBtnBox button
+{
+  background: linear-gradient(45deg, #0098a9 0%, #00d4ff 50%, #006d7a 100%);
+  color: #ffffff;
+  padding: 10px 30px;
+  border-radius: 7px;
+  font-size: 18px;
+  border: none;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3), -5px -5px 10px rgba(255, 255, 255, 0.1);
+  margin: 0 30px;
+
+}
+.skills-nav-buttons button
+{
+  background-color: #24272C;
+  border: none;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3), -5px -5px 10px rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  font-size: 30px;
+  background: linear-gradient(45deg, #0098a9 0%, #00d4ff 50%, #006d7a 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: #00d4ff ;
+}
+.skills-nav-buttons
+{
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+}
+@media screen and (max-width: 992px)
+{
+  .small-items {
+    left: 45%;
+  }
+}
+@media screen and (max-width: 900px)
+{
+
+  .main-item {
+    width: 200px;
+    height: 200px;
+  }
+ 
+  .small-item {
+    width: 50px;
+    height: 50px;
+  }
+  .small-items {
+    left: 46%;
+  }
+}
+@media screen and (max-width: 768px)
+{
+  .main-item {
+    width: 150px;
+    height: 150px;
+  }
+   .small-items {
+    top: 37%;
+    left: 46%;
+  }
+  .small-item {
+    width: 40px;
+    height: 40px;
+  }
+}
+@media screen and (max-width: 500px)
+{
+  .small-items {
+    top: 33%;
+    left: 45%;
+  }
+  .main-item {
+    width: 100px;
+    height: 100px;
+  }
+}
+@media screen and (max-width: 390px)
+{
+  .main-item {
+    width: 80px;
+    height: 80px;
+  }
+  .small-items {
+    top: 30%;
+    left: 43%;
+  }
+  .small-item {
+    width: 35px;
+    height: 35px;
+  }
+}
