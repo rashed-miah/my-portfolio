@@ -53,11 +53,7 @@ function Navbar() {
             </li>
             <li>
               {/* this file should be updated */}
-              <a
-                href="https://github.com/rashed-miah/my-portfolio/releases/download/v1.0/resume.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
                 <span>
                   <FontAwesomeIcon icon={faFileLines} />
                 </span>
