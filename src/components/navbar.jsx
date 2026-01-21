@@ -54,7 +54,7 @@ function Navbar() {
             <li>
               {/* this file should be updated */}
               <a
-                href="https://drive.google.com/file/d/1jRtAWsnmtiH3_yoAE6JMf0aonK2XY6nt/view?usp=sharing"
+                href="https://drive.google.com/file/d/1jRtAWsnmtiH3_yoAE6JMf0aonK2XY6nt/preview"
                 target="_blank"
                 rel="noopener noreferrer"
               >
