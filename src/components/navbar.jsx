@@ -54,7 +54,7 @@ function Navbar() {
             <li>
               {/* this file should be updated */}
               <a
-                href="https://github.com/rashed-miah/my-portfolio/releases/download/v1.0/resume.pdf"
+                href="https://drive.google.com/file/d/1eNrUKipyUwEratMGCh2p5MaCvxoDuRrB/preview"
                 target="_blank"
                 rel="noopener noreferrer"
               >
