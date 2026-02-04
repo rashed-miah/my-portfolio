@@ -8,7 +8,7 @@ const experienceData = [
     title: "PirhoTech",
     validity: "Frontend Developer ||  Remote || 2025–Present",
     description:
-      "Assisted in the development of a web-based platform using   Html, CSS, JavaScript and React.js, enhancing interactivity and data management capabilities.",
+      "Assisted in the development of a web-based platform using HTML, CSS, JavaScript, and React.js, enhancing interactivity and data management, and occasionally contributed to backend tasks based on project requirements.",
     icon: faLaptopCode,
     position: "left",
   },
