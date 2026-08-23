@@ -5,10 +5,10 @@ import { faGraduationCap, faSchool } from "@fortawesome/free-solid-svg-icons";
 
 const educationData = [
   {
-    title: "Bachelor of Science in Computer Science",
-    validity: "2022 - Present",
+    title: "Bachelor of Science in Computer Science and Engineering",
+    validity: "February 2022 - April 2026",
     description:
-      "Studying core computer science subjects and working on projects related to web technologies.",
+      "Studied core computer science subjects and working on projects related to web technologies.",
     icon: faGraduationCap,
     position: "left",
   },

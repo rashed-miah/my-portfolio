@@ -18,6 +18,7 @@ import expressjs from "../images/skillsLogo/express-js.png";
 import mongodb from "../images/skillsLogo/mongodb.png";
 
 import tailwindcss from "../images/skillsLogo/tailwindcss.png";
+import php from "../images/skillsLogo/php.svg";
 
 function ProgressBar({ progress }) {
   return (
@@ -50,6 +51,7 @@ function Skills() {
     { id: 3, image: css, progress: 80 },
     { id: 4, image: html, progress: 80 },
     { id: 5, image: javascript, progress: 70 },
+    { id: 11, image: php, progress: 60 },
     { id: 6, image: mongodb, progress: 80 },
     { id: 7, image: expressjs, progress: 60 },
     { id: 8, image: tailwindcss, progress: 90 },

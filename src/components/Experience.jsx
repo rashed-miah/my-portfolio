@@ -2,24 +2,35 @@ import React from "react";
 import "../css/timeline.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLaptopCode, faNewspaper } from "@fortawesome/free-solid-svg-icons";
+import { faWordpress } from "@fortawesome/free-brands-svg-icons";
 
 const experienceData = [
   {
-    title: "PirhoTech",
-    validity: "Frontend Developer ||  Remote || 2025–Present",
+    title: "SM Technology",
+    validity: "Junior Web Developer(CMS) || Onsite || April 2026 – Present",
+    description:
+      "Worked on real-world WordPress projects for global clients using WordPress, Elementor, WooCommerce, plugins, and custom themes. Collaborated directly with international clients to understand requirements and deliver tailored solutions. Experienced in theme and plugin customization, plugin integration, eCommerce setup, landing pages, website migration, troubleshooting, and performance optimization, ensuring quality, usability, and client satisfaction.",
+    icon: faWordpress,
+    position: "left",
+  },
+
+  {
+    title: "PaymentSave ",
+    validity: "MERN Stack Developer ||  Remote || August 2025 – March 2026",
     description:
       "Assisted in the development of a web-based platform using HTML, CSS, JavaScript, and React.js, enhancing interactivity and data management, and occasionally contributed to backend tasks based on project requirements.",
     icon: faLaptopCode,
-    position: "left",
+    position: "right",
   },
+
   {
     title: "Freelancing Agency IT",
     validity:
       "Digital Marketing Specialist & Shopify Theme Customizer || Freelance / Remote || 2021–2023",
     description:
-      "I verified and managed Facebook Business Manager accounts for multiple international clients while creating, optimizing, and managing Facebook and Instagram ad campaigns targeting specific locations and audiences. I planned and executed paid marketing strategies to increase sales, leads, and brand visibility, specializing in running ad campaigns for clients in the USA, Morocco, India, Netherlands, France, UK, and Switzerland. I conducted audience research, campaign budgeting, and performance tracking using Facebook Ads Manager, and optimized ads to achieve better CTR, conversions, and ROI. Additionally, I provided complete Shopify services including theme customization, store setup and design, product uploading and optimization, and landing page design for ad campaigns. Through these services, I helped small and medium businesses grow their online presence and increase revenue using effective digital marketing strategies.",
+      "Worked with global clients to manage Facebook Business Manager and run targeted Facebook & Instagram ad campaigns. Handled audience research, campaign optimization, budgeting, and performance tracking to improve leads, sales, and ROI. Also provided Shopify theme customization, store setup, product management, and landing page development based on client requirements.",
     icon: faNewspaper,
-    position: "right",
+    position: "left",
   },
 ];
 
