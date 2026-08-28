@@ -56,6 +56,19 @@ function ProjectsComponent({ title, projects, activeTab, handleTabClick }) {
           >
             Web Apps
           </button>
+          <button
+            style={
+              activeTab === "wordpress"
+                ? {
+                    background:
+                      "linear-gradient(45deg, #0098a9 0%, #00d4ff 50%, #006d7a 100%)",
+                  }
+                : {}
+            }
+            onClick={() => handleTabClick("wordpress")}
+          >
+            WordPress
+          </button>
           {/* <button 
                         style={activeTab === "android" ? {background: "linear-gradient(45deg, #0098a9 0%, #00d4ff 50%, #006d7a 100%)"} : {}} 
                         onClick={() => handleTabClick("android")}

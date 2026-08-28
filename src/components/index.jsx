@@ -4,6 +4,7 @@ import Navbar from "./navbar";
 import Header from "./header";
 import About from "./about";
 import WebApps from "./WebApps";
+import WordPress from "./WordPress";
 import AndroidApps from "./AndroidApps";
 import Others from "./Others";
 import Skills from "./skills";
@@ -29,6 +30,9 @@ function Index() {
         <Header />
         <About />
         {activeTab === "webapps" && <WebApps handleTabClick={handleTabClick} />}
+        {activeTab === "wordpress" && (
+          <WordPress handleTabClick={handleTabClick} />
+        )}
         {/* {activeTab === "android" && (
           <AndroidApps handleTabClick={handleTabClick} />
         )}
