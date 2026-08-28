@@ -3,7 +3,7 @@ import "../css/header.css";
 import headerRashedImg from "../images/PP2.png";
 
 function Header() {
-  const roles = ["Full-Stack Developer"];
+  const roles = ["WordPress & MERN Stack Developer"];
 
   const [currentRoleIndex, setCurrentRoleIndex] = useState(0);
   const [currentText, setCurrentText] = useState("");
@@ -53,11 +53,11 @@ function Header() {
             </span>
           </h4>
           <p>
-            A passionate and dynamic full-stack developer crafting real-world,
-            impact-driven solutions across e-commerce, portfolio, and real-time
-            platforms. Explore a showcase of intuitive, scalable
-            applications—built with modern technologies like javascript, React,
-            Node.js, and MongoDB.
+            WordPress & MERN Stack Developer building responsive, scalable, and
+            user-focused web solutions. Experienced in WordPress development,
+            eCommerce, and modern full-stack applications using WordPress,
+            Elementor, WooCommerce, PHP, JavaScript, React.js, Node.js,
+            Express.js, and MongoDB.
           </p>
         </div>
         <div className="headerBtns">
